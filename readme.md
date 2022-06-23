@@ -10,18 +10,23 @@ OWASP Juice Shop: Probably the most modern and sophisticated insecure web applic
 
 Link to the Github Version to clone their repository: https://github.com/juice-shop/juice-shop
 
+**IMPORTANT:**
+_Use what you learn for the good side. Harming others with it is uncool and not appropriate!_
+
+
 
 <br />
 <br />
 
 
 ***
-## Folder Directory
+## Attacks we're trying💥
 ***
 
-| Topic | Content  | 
+| Name | Meaning  | 
 |:--------------| :--------------|
-|||
+|Crossside scripting| I have the possibility to add my own scripts to the website (concerns me and unsuspecting users) |
+| SQL Injection | We take over the administrator, decrypt the password and have access to his account (Email and Password out of a database table) |
 
 <br />
 <br />
@@ -40,6 +45,7 @@ _**How does it look like to ASYNC a function, FETCH an API and read the content 
 ```js
 /* ---- Your notes here ---- */
 
+Textfelder suchen, um Javascript auf eine fremde Seite zu schreiben
 
 ```
 
