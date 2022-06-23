@@ -45,7 +45,7 @@ _**How does it look like to ASYNC a function, FETCH an API and read the content 
 ```js
 /* ---- Your notes here ---- */
 
-Textfelder suchen, um Javascript auf eine fremde Seite zu schreiben
+
 
 ```
 
