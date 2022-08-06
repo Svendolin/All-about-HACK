@@ -6,12 +6,14 @@
 
 # - ALL ABOUT SECURITY STUFF - ✔
 
+**IMPORTANT:**
+_Use what you learn for the good side. Harming others with it is uncool and not appropriate!_
+
 OWASP Juice Shop: Probably the most modern and sophisticated insecure web application: [CLICK HERE](http://demo.owasp-juice.shop/#/)
 
 Link to the Github Version to clone their repository: https://github.com/juice-shop/juice-shop
 
-**IMPORTANT:**
-_Use what you learn for the good side. Harming others with it is uncool and not appropriate!_
+
 
 
 
@@ -20,13 +22,16 @@ _Use what you learn for the good side. Harming others with it is uncool and not 
 
 
 ***
-## Attacks we're trying💥
+## Some important words and phrases💥
 ***
 
 | Name | Meaning  | 
 |:--------------| :--------------|
 |Crossside scripting| I have the possibility to add my own scripts to the website (concerns me and unsuspecting users) |
 | SQL Injection | We take over the administrator, decrypt the password and have access to his account (Email and Password out of a database table) |
+| SSL Certificate | Connection between browser and web server takes place unencrypted (downloads, uploads etc) |
+| Port 80 vs Port 443 | HTTP Port is usually described as "80" while the secured protocol (https) is known as 443
+| HEX-Encoding | Passwords can be encrypted, e.g. by encoding them. The decoding is in return the re-encryption. Wireshark itself has the tool to copy lines and show this section as printable text "druckbarer Text" (conversion) |
 
 <br />
 <br />
@@ -35,12 +40,18 @@ _Use what you learn for the good side. Harming others with it is uncool and not 
 ## Technologies and Installation ✅
 ***
 
-<br />
-<br />
 
 
 
-_**How does it look like to ASYNC a function, FETCH an API and read the content with JSON() IN YOUR BROWSER'S CONSOLE ?**_
+
+_**WIRESHARK:**_
+
+Wireshark is a free software for analysis and graphical processing of data protocols, which was created in 2006 as a fork of the program Ethereal. Such data protocols are used by computers on various communication media such as the local network, Bluetooth or USB. Wireshark is a packet sniffer and analysis tool. It captures network traffic on the local network and stores this data for offline analysis.
+
+- Wireshark Website + Download:  [CLICK HERE](https://www.wireshark.org/)
+- Wireshark Basics (video):  [CLICK HERE](https://www.youtube.com/watch?v=lb1Dw0elw0Q)
+
+
 
 ```js
 /* ---- Your notes here ---- */
@@ -61,21 +72,8 @@ _**How does it look like to ASYNC a function, FETCH an API and read the content 
 
 | COMMAND | EFFECT  | 
 |:--------------| :--------------|
-| $ node --version | Checks the node.js version (None if you havent installed it) |
-| $ npm --version | Checks the NPM Version (Node Package Manager) |
-| $ npm init | !OPTIONAL AT THE BEGINNING: Setting up the nodemodule with additional information |
-| $ pwd | Print Work Directory (checks your path) |
-| $ ls | Show Contents of a Directory |
-| $ cd TAB (TAB as Autocomplete) | Navigate forward through Content Directory |
-| $ cd .. | Navigate backwards of the Content Directory |
-| $ node (...) | Using NODE to start the serverside workingspace |
-| $ nodemon (...)  | Using NODEMON to start the serverside workingspace |
-| $ npm install -g nodemon  | Install Nodemon (This is the version to Install it once globally) |
-| $ npm i express  | Install Express (You can also write "install", "i" is shortcut) |
-| $ npm i ejs  | Install EJS (You can also write "install", "i" is shortcut) |
-| $ npm i ndeb  | Install NEDB, a lightweight Javascript Database |
-| $ npm i node-fetch@2  | Install Node-Fetch Vers.2, a lightweight module that brings Fetch API to Node.js. |
-| $ npm i request  | (Deprecated!) Fetch is CLIENT-SIDE, to load APIs on server-side we need packages like this => AXIOS :) |
+| xxx | xxx |
+
 
 
 <br />
