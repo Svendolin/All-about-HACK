@@ -4,7 +4,7 @@
 ***
 
 
-# - ALL ABOUT SECURITY STUFF - ✔
+# <img align="left" alt="HTML" width="35px" src="https://banner2.cleanpng.com/20180626/ijk/kisspng-computer-security-threat-national-cyber-security-a-topic-logo-5b32ac279670a0.5387674615300475276162.jpg" /> - ALL ABOUT SECURITY STUFF - ✔
 
 **IMPORTANT:**
 _Use what you learn for the good side. Harming others with it is uncool and not appropriate!_
