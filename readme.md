@@ -28,8 +28,9 @@ Link to the Github Version to clone their repository: https://github.com/juice-s
 
 | Name | Meaning  | 
 |:--------------| :--------------|
-|Crossside scripting| I have the possibility to add my own scripts to the website (concerns me and unsuspecting users) |
-| SQL Injection | We take over the administrator, decrypt the password and have access to his account (Email and Password out of a database table) |
+|Xss Attack / Crosssite Scripting |  If you put code (like Javascript code ) into an input field and imject it into the website, it will be executed by the browser or several other devices. This is called Cross Site Scripting (XSS) and can be used to steal cookies, session tokens, or redirect the user to a malicious site. |
+| SQL Injection | If you safe date, these are going to be saved in a SQL-Table. The Structured Query Language is used here to work with these data types. We take over the administrator, decrypt the password and have access to his account (Email and Password out of a database table) when we put SQL Code into an input field |
+|Front-End Validation | Important data, e.g. of a webshop (prices and product names) should not only be validated in the front-end, but also in the back-end. In the best case, we send the ID of a product to the back-end, as it is easy to rewrite the HTML source code locally in the front-end through the Inspector.|
 | SSL Certificate | Connection between browser and web server takes place unencrypted (downloads, uploads etc) |
 | Port 80 vs Port 443 | HTTP Port is usually described as "80" while the secured protocol (https) is known as 443
 | HEX-Encoding | Passwords can be encrypted, e.g. by encoding them. The decoding is in return the re-encryption. Wireshark itself has the tool to copy lines and show this section as printable text "druckbarer Text" (conversion) |
