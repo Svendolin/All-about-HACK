@@ -9,6 +9,7 @@
 **IMPORTANT:**
 _Use what you learn for the good side. Harming others with it is uncool and not appropriate!_
 
+**TRY YOUR KNOWLEDGE:**
 OWASP Juice Shop: Probably the most modern and sophisticated insecure web application: [CLICK HERE](http://demo.owasp-juice.shop/#/)
 
 Link to the Github Version to clone their repository: https://github.com/juice-shop/juice-shop
@@ -28,7 +29,7 @@ Link to the Github Version to clone their repository: https://github.com/juice-s
 
 | Name | Meaning  | 
 |:--------------| :--------------|
-|Xss Attack / Crosssite Scripting |  If you put code (like Javascript code ) into an input field and imject it into the website, it will be executed by the browser or several other devices. This is called Cross Site Scripting (XSS) and can be used to steal cookies, session tokens, or redirect the user to a malicious site. |
+|Xss Attack / Crosssite Scripting |  If you put code (like Javascript code ) into an input field and inject it into the website, it will be executed by the browser or several other devices. This is called Cross Site Scripting (XSS) and can be used to steal cookies, session tokens, or redirect the user to a malicious site. |
 | SQL Injection | If you safe date, these are going to be saved in a SQL-Table. The Structured Query Language is used here to work with these data types. We take over the administrator, decrypt the password and have access to his account (Email and Password out of a database table) when we put SQL Code into an input field |
 |Front-End Validation | Important data, e.g. of a webshop (prices and product names) should not only be validated in the front-end, but also in the back-end. In the best case, we send the ID of a product to the back-end, as it is easy to rewrite the HTML source code locally in the front-end through the Inspector.|
 | SSL Certificate | Connection between browser and web server takes place unencrypted (downloads, uploads etc) |
