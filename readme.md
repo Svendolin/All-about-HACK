@@ -29,7 +29,7 @@ Link to the Github Version to clone their repository: https://github.com/juice-s
 
 | Name | Where | Meaning  | 
 |:--------------| :--------------| :--------------|
-|1) Xss Attack / Crosssite Scripting | ...|  If you put code (like Javascript code ) into an input field and inject it into the website, it will be executed by the browser or several other devices. This is called Cross Site Scripting (XSS) and can be used to steal cookies, session tokens, or redirect the user to a malicious site. |
+|1) Xss Attack / Crosssite Scripting | Input fields |  If you put code (like Javascript code ) into an input field and inject it into the website, it will be executed by the browser or several other devices. This is called Cross Site Scripting (XSS) and can be used to steal cookies, session tokens, or redirect the user to a malicious site. |
 | 2) SQL Injection | ...| If you safe date, these are going to be saved in a SQL-Table. The Structured Query Language is used here to work with these data types. We take over the administrator, decrypt the password and have access to his account (Email and Password out of a database table) when we put SQL Code into an input field |
 | 3) Front-End Validation | ... |Important data, e.g. of a webshop (prices and product names) should not only be validated in the front-end, but also in the back-end. In the best case, we send the ID of a product to the back-end, as it is easy to rewrite the HTML source code locally in the front-end through the Inspector.|
 | 4) SSL Certificate | ...| Connection between browser and web server takes place unencrypted (downloads, uploads etc) |
@@ -55,9 +55,9 @@ _**Frontend, Backend and DB:**_
 - The data is stored in the database and can be retrieved from there.
 
 _**Post Request (Also mentioned in PHP Repository)**_
-- Frontend sends data to the backend (e.g. username and password) and the backend checks if the data is correct. Post ADDS data to the database.
+- Frontend sends data to the backend (e.g. username and password) and the backend checks if the data is correct. Post ADDS data to the database. 
 
-
+**=> The aim is to prevent HTML code from being entered in the first place by rewriting the character. Thus, "<" characters are often replaced**
 <br />
 <br />
 
@@ -84,21 +84,6 @@ Wireshark is a free software for analysis and graphical processing of data proto
 
 
 ```
-
-
-<br />
-<br />
-
-***
-<img align="left" alt="JavaScript" width="35px" src="https://raw.githubusercontent.com/github/explore/d92924b1d925bb134e308bd29c9de6c302ed3beb/topics/terminal/terminal.png" />
-
-## &nbsp;TERMINAL COMMANDS I USED HERE ✅
-***
-
-| COMMAND | EFFECT  | 
-|:--------------| :--------------|
-| xxx | xxx |
-
 
 
 <br />
